@@ -1,0 +1,44 @@
+body {
+  background-color: #1d2d3c;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  img {
+    height: 80%;
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+header {
+  background-color: #05131e;
+  height: 60px;
+  position: relative;
+
+  img {
+    width: 40px;
+    position: absolute;
+    transform: translate(150%, 25%);
+  }
+}
+
+.card {
+  background-color: #10202f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc((100% / 3) - 50px);
+}
+
+.card-title h2,
+.card-year h2 {
+  color: white;
+  font-size: 16px !important;
+}
+.card-author h3 {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
